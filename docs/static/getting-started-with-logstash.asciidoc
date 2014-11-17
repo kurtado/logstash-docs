@@ -89,7 +89,7 @@ cd elasticsearch-{elasticsearch_version}/
 ./bin/elasticsearch
 ----------------------------------
 
-NOTE: This tutorial specifies running Logstash {logstash_version} with Elasticsearch {elasticsearch_version}. Each release of Logstash has a *recommended* version of Elasticsearch to pair with. Make sure the versions match based on the http://logstash.net/docs/latest[Logstash version] you're running!
+NOTE: This tutorial specifies running Logstash {logstash_version} with Elasticsearch {elasticsearch_version}. This version of Logstash should work with any version of Elasticsearch 1.x. For the latest version of Logstash visit the http://www.elasticsearch.org/overview/logstash[Logstash Overview] page.
 
 More detailed information on installing and configuring Elasticsearch can be found on http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/index.html[The Elasticsearch reference pages]. However, for the purposes of Getting Started with Logstash, the default installation and configuration of Elasticsearch should be sufficient.
 
